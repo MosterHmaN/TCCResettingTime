@@ -10,9 +10,6 @@ SetWorkingDir %A_ScriptDir%
 
 #IfWinActive, The Colorful Creature
 
-;This macro is kinda slow but once there is tabbable selecting i can release tccrm 2.
-; ^ means ctrl and * means shift. Feel free to change if you want (ps. do NOT remove the double colons)
-
 global disableTTS = False ; if you want to have this on, go for it, if not, go for it. okayge
 if (!disableTTS)
   ComObjCreate("SAPI.SpVoice").Speak("Time for resetting, gamer")
